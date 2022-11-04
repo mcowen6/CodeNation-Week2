@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+    width: 100%;
+    margin: 0 8px;
+}
+
+.main-banner{
+    background-image: url("../Day1/Resources/Images/html image.jpg");
+    width: 500px;
+    height: 250px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.main-banner h1{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-weight: 800;
+    font-size: 65px;
+    position: relative;
+    top: 85px;
+    margin: 0 auto;
+}
+
+#about-me{
+    background-color: ivory;
+    padding: 10px 5px;
+    border: 2px solid black; 
+
+}
+#about-me h2{
+    margin: 5px 0;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 30px; 
+    padding: 5px;
+    border: 2px solid black;
+    position: relative;
+    top: 12px;
+}
+
+
+
+

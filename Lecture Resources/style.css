@@ -1,0 +1,58 @@
+/* importing a fontstyle from Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  /* this border is just so we can see the size of the container! */
+  border: solid black 3px; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 50vh;
+}
+
+.box {
+  color: white;
+  font-size: 100px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Colours
+for each box */
+.box1 {
+  background: #eccc68;
+}
+.box2 {
+  background: #ff6348;
+}
+.box3 {
+  background: #ff7f50;
+}
+.box4 {
+  background: #ff4757;
+}
+.box5 {
+  background: #f1c40f;
+}
+.box6 {
+  background: #e67e22;
+}
+.box7 {
+  background: #2ed573;
+}
+.box8 {
+  background: #1e90ff;
+}
+.box9 {
+  background: #c56cf0;
+}
+.box10 {
+  background: #18dcff;
+}
+
