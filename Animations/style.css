@@ -1,0 +1,59 @@
+/* .square{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    animation-name: button;
+    animation-duration: 4s;
+}
+
+.square:hover{
+    border-radius: 50%;
+}
+
+@keyframes button {
+    0%{
+        background-color: blueviolet;
+        box-shadow: 6px 6px 0 darkgrey;
+    }
+    50% {
+        background-color: aqua;
+        box-shadow: 6px 6px 0 darkslategray;
+    }
+    100%{
+        background-color: whitesmoke;
+        box-shadow: 6px 6px 0 black;
+    }
+} */
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.codenation-logo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 400px;
+}
+
+.codenation-logo img :hover{
+    animation-name: button;
+    animation-duration: 6s;
+}
+
+@keyframes button {
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    75%{
+        transform: rotateY(270deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
